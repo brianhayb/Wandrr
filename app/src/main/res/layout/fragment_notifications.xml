@@ -1,0 +1,75 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DEFBD2"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/nameofTrail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:text="@string/nameoftrail"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/westshore" />
+
+        <TextView
+            android:id="@+id/locationoftrail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/locationoftrail"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#C6000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/elevation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/elevation"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#C6000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/elevation2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/elevation2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#C6000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="300dp"
+            android:layout_height="270dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/description"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#C6000000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>
